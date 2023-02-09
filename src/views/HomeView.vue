@@ -7,7 +7,16 @@ This example requires Tailwind CSS v3.0+
       after:right-0
       after:bg-black/10 -->
   <div
-    class="isolate bg-white relative aspect-video bg-cover"
+    class="
+      isolate
+      bg-white
+      relative
+      bg-cover
+      max-h-[65rem]
+      min-h-[40rem]
+      h-screen
+      flex flex-col
+    "
     style="
       /* background-image: url('https://images.unsplash.com/photo-1618153807812-a12a1950d93c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'); */
       background-image: url('https://images.unsplash.com/photo-1524401033441-e87cab019093?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
@@ -35,6 +44,7 @@ This example requires Tailwind CSS v3.0+
         pt-6
         lg:px-8
         max-w-[90rem]
+        w-full
         mx-auto
         h-full
         flex flex-col
@@ -46,11 +56,10 @@ This example requires Tailwind CSS v3.0+
         <h1
           class="
             w-fit
-            text-gray-200 text-8xl
+            text-gray-900 text-9xl
             tracking-wide
             font-bold
             leading-[1.15]
-            mix-blend-difference
           "
         >
           Dein <br />bester Freund.
