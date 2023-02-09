@@ -14,7 +14,20 @@ This example requires Tailwind CSS v3.0+
     "
   >
     <TheHeader class="w-full"></TheHeader>
-    <main class="px-6 pt-6 lg:px-8 max-w-[90rem] mx-auto h-full">
+    <!-- Hero -->
+    <main
+      class="
+        px-6
+        pt-6
+        lg:px-8
+        max-w-[90rem]
+        mx-auto
+        h-full
+        flex flex-col
+        justify-between
+      "
+    >
+      <!-- Hero Content -->
       <div class="h-2/3 flex flex-col justify-center">
         <h1
           class="
@@ -28,6 +41,28 @@ This example requires Tailwind CSS v3.0+
         >
           Dein <br />bester Freund.
         </h1>
+      </div>
+      <!-- Hero Image Legend -->
+      <div
+        class="ml-auto bg-gray-900/75 p-6 text-gray-100 max-w-[15rem] w-full"
+      >
+        <p class="font-bold text-5xl inline-flex items-start">
+          01 <span class="text-lg font-medium mt-1 ml-1">/ 04</span>
+        </p>
+        <div
+          class="
+            relative
+            w-full
+            h-1
+            bg-gray-400
+            my-2
+            before:h-full before:absolute before:w-1/2 before:bg-gray-100
+          "
+        ></div>
+        <p class="font-semibold text-lg">Amy</p>
+        <p class="leading-5 text-lg mt-2 font-light">
+          Sie liebt es in Wiesen zu sitzen.
+        </p>
       </div>
     </main>
   </div>
