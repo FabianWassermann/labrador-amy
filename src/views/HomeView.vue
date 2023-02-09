@@ -13,6 +13,20 @@ This example requires Tailwind CSS v3.0+
       background-image: url('https://images.unsplash.com/photo-1524401033441-e87cab019093?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
     "
   >
+    <!-- Backdrop -->
+    <div
+      class="
+        w-full
+        pointer-events-none
+        absolute
+        top-0
+        h-24
+        bg-gradient-to-t
+        from-transparent
+        to-black
+        opacity-50
+      "
+    ></div>
     <TheHeader class="w-full"></TheHeader>
     <!-- Hero -->
     <main

@@ -1,5 +1,6 @@
 <template>
   <div class="px-6 pt-6 lg:px-8 max-w-[90rem] mx-auto">
+    <!-- Header -->
     <nav class="flex items-center justify-between" aria-label="Global">
       <div class="flex lg:flex-1">
         <a href="#" class="-m-1.5 p-1.5">
@@ -9,15 +10,7 @@
             src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
             alt=""
           /> -->
-          <span
-            class="
-              font-bold
-              text-3xl
-              tracking-wide
-              text-gray-200
-              uppercase
-              mix-blend-difference
-            "
+          <span class="font-bold text-3xl tracking-wide text-gray-100 uppercase"
             >Labrador</span
           >
         </a>
@@ -32,8 +25,7 @@
             justify-center
             rounded-md
             p-2.5
-            text-gray-200
-            mix-blend-difference
+            text-gray-100
           "
           @click="mobileMenuOpen = true"
         >
@@ -46,26 +38,12 @@
           v-for="item in navigation"
           :key="item.name"
           :href="item.href"
-          class="
-            text-md
-            font-medium
-            leading-6
-            text-gray-200
-            mix-blend-difference
-          "
+          class="text-md font-medium leading-6 text-gray-100"
           >{{ item.name }}</a
         >
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <a
-          href="#"
-          class="
-            text-md
-            font-semibold
-            leading-6
-            text-gray-200
-            mix-blend-difference
-          "
+        <a href="#" class="text-md font-semibold leading-6 text-gray-100"
           >Kontakt <span aria-hidden="true">&rarr;</span></a
         >
       </div>
