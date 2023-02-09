@@ -58,7 +58,7 @@ This example requires Tailwind CSS v3.0+
       </div>
       <!-- Hero Image Legend -->
       <div
-        class="ml-auto bg-gray-900/75 p-6 text-gray-100 max-w-[15rem] w-full"
+        class="ml-auto bg-gray-900/75 p-8 text-gray-100 max-w-[18rem] w-full"
       >
         <p class="font-bold text-5xl inline-flex items-start">
           01 <span class="text-lg font-medium mt-1 ml-1">/ 04</span>
