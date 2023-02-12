@@ -1,11 +1,5 @@
 This example requires Tailwind CSS v3.0+
 <template>
-  <!-- after:fixed
-      after:top-0
-      after:bottom-0
-      after:left-0
-      after:right-0
-      after:bg-black/10 -->
   <div
     class="
       isolate
