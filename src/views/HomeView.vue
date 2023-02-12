@@ -23,6 +23,7 @@ This example requires Tailwind CSS v3.0+
       after:right-0
       after:bg-black/10
       after:pointer-events-none
+      overflow-hidden
     "
   >
     <!-- Image Slider -->
@@ -69,11 +70,15 @@ This example requires Tailwind CSS v3.0+
             class="
               w-fit
               z-10
-              text-white text-8xl
+              text-white text-6xl
+              sm:text-8xl
               2xl:text-9xl
               tracking-wide
               font-extrabold
               leading-[1.15]
+              text-center
+              sm:text-left
+              text-ellipsis
             "
           >
             Dein <br />bester Freund.
@@ -81,15 +86,20 @@ This example requires Tailwind CSS v3.0+
           <h1
             class="
               absolute
-              top-[0.4rem]
-              left-[0.4rem]
+              top-[0.2rem]
+              left-[0.2rem]
+              sm:top-[0.3rem] sm:left-[0.3rem]
               w-fit
-              text-white text-8xl
+              text-white text-6xl
+              sm:text-8xl
               2xl:text-9xl
               tracking-wide
               font-extrabold
               leading-[1.15]
               mix-blend-difference
+              text-center
+              sm:text-left
+              text-ellipsis
             "
           >
             Dein <br />bester Freund.
@@ -99,7 +109,8 @@ This example requires Tailwind CSS v3.0+
       <!-- Hero Image Legend -->
       <div
         class="
-          ml-auto
+          mx-auto
+          sm:mr-0
           bg-black/80
           p-8
           text-white
@@ -110,22 +121,25 @@ This example requires Tailwind CSS v3.0+
       >
         <div class="inline-flex items-start">
           <transition>
-            <span :key="currImageIndex" class="text-4xl 2xl:text-5xl font-bold">
+            <span
+              :key="currImageIndex"
+              class="text-3xl sm:text-4xl 2xl:text-5xl font-bold"
+            >
               {{ String(currImageIndex + 1).padStart(2, "0") }}
             </span>
           </transition>
-          <span class="text-md 2xl:text-lg font-medium mt-1 ml-1"
+          <span class="text-base 2xl:text-lg font-medium mt-1 ml-1"
             >/ {{ String(images.length).padStart(2, "0") }}</span
           >
         </div>
-        <div class="relative w-full h-1 bg-gray-400 my-2">
+        <div class="relative w-full h-0.5 sm:h-1 bg-gray-400 my-2">
           <div
             class="absolute top-0 left-0 bg-white h-full"
             ref="slideProgress"
           ></div>
         </div>
-        <p class="font-semibold text-md 2xl:text-lg">Amy</p>
-        <p class="leading-5 text-md 2xl:text-lg mt-2 font-light">
+        <p class="font-semibold text-base 2xl:text-lg">Amy</p>
+        <p class="leading-5 text-base 2xl:text-lg mt-2 font-light">
           Sie liebt es in Wiesen zu sitzen.
         </p>
       </div>
