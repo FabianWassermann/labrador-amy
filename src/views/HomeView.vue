@@ -1,5 +1,6 @@
 This example requires Tailwind CSS v3.0+
 <template>
+  <!-- HEADER & HERO -->
   <div
     class="
       isolate
@@ -38,10 +39,13 @@ This example requires Tailwind CSS v3.0+
     <!-- Hero -->
     <TheHero></TheHero>
   </div>
+  <!-- SECTION 1 -->
+  <TheSection></TheSection>
 </template>
 
 <script setup>
 import { ref } from "vue";
 import TheHeader from "@/components/TheHeader.vue";
 import TheHero from "@/components/TheHero.vue";
+import TheSection from "@/components/TheSection.vue";
 </script>
