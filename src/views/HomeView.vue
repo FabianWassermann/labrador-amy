@@ -41,6 +41,8 @@ This example requires Tailwind CSS v3.0+
   </div>
   <!-- SECTION 1 -->
   <TheSection></TheSection>
+  <!-- FOOTER -->
+  <TheFooter></TheFooter>
 </template>
 
 <script setup>
@@ -48,4 +50,5 @@ import { ref } from "vue";
 import TheHeader from "@/components/TheHeader.vue";
 import TheHero from "@/components/TheHero.vue";
 import TheSection from "@/components/TheSection.vue";
+import TheFooter from "@/components/TheFooter.vue";
 </script>
