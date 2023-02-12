@@ -100,7 +100,7 @@ This example requires Tailwind CSS v3.0+
       <div
         class="
           ml-auto
-          bg-gray-900/75
+          bg-black/80
           p-8
           text-white
           max-w-[16rem]
