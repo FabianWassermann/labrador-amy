@@ -10,7 +10,7 @@
             src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
             alt=""
           /> -->
-          <span class="font-bold text-3xl tracking-wide text-gray-100 uppercase"
+          <span class="font-bold text-3xl tracking-wide text-white uppercase"
             >Labrador</span
           >
         </a>
@@ -25,7 +25,7 @@
             justify-center
             rounded-md
             p-2.5
-            text-gray-100
+            text-white
           "
           @click="mobileMenuOpen = true"
         >
@@ -38,12 +38,12 @@
           v-for="item in navigation"
           :key="item.name"
           :href="item.href"
-          class="text-md font-medium leading-6 text-gray-100"
+          class="text-md font-medium leading-6 text-white"
           >{{ item.name }}</a
         >
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <a href="#" class="text-md font-semibold leading-6 text-gray-100"
+        <a href="#" class="text-md font-semibold leading-6 text-white"
           >Kontakt <span aria-hidden="true">&rarr;</span></a
         >
       </div>

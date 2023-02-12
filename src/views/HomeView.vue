@@ -64,19 +64,37 @@ This example requires Tailwind CSS v3.0+
     >
       <!-- Hero Content -->
       <div class="h-2/3 flex flex-col justify-center">
-        <h1
-          class="
-            w-fit
-            text-white text-8xl
-            2xl:text-9xl
-            tracking-wide
-            font-extrabold
-            leading-[1.15]
-          "
-          style="text-shadow: 2px 2px 1px #545454"
-        >
-          Dein <br />bester Freund.
-        </h1>
+        <div class="relative">
+          <h1
+            class="
+              w-fit
+              z-10
+              text-white text-8xl
+              2xl:text-9xl
+              tracking-wide
+              font-extrabold
+              leading-[1.15]
+            "
+          >
+            Dein <br />bester Freund.
+          </h1>
+          <h1
+            class="
+              absolute
+              top-[0.4rem]
+              left-[0.4rem]
+              w-fit
+              text-white text-8xl
+              2xl:text-9xl
+              tracking-wide
+              font-extrabold
+              leading-[1.15]
+              mix-blend-difference
+            "
+          >
+            Dein <br />bester Freund.
+          </h1>
+        </div>
       </div>
       <!-- Hero Image Legend -->
       <div
@@ -84,7 +102,7 @@ This example requires Tailwind CSS v3.0+
           ml-auto
           bg-gray-900/75
           p-8
-          text-gray-100
+          text-white
           max-w-[16rem]
           2xl:max-w-[18rem]
           w-full
@@ -102,7 +120,7 @@ This example requires Tailwind CSS v3.0+
         </div>
         <div class="relative w-full h-1 bg-gray-400 my-2">
           <div
-            class="absolute top-0 left-0 bg-gray-100 h-full"
+            class="absolute top-0 left-0 bg-white h-full"
             ref="slideProgress"
           ></div>
         </div>
