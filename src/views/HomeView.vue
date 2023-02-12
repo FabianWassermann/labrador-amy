@@ -67,27 +67,36 @@ This example requires Tailwind CSS v3.0+
         <h1
           class="
             w-fit
-            text-gray-400 text-8xl
+            text-white text-8xl
             2xl:text-9xl
             tracking-wide
-            font-bold
+            font-extrabold
             leading-[1.15]
           "
+          style="text-shadow: 2px 2px 1px #545454"
         >
           Dein <br />bester Freund.
         </h1>
       </div>
       <!-- Hero Image Legend -->
       <div
-        class="ml-auto bg-gray-900/75 p-8 text-gray-100 max-w-[18rem] w-full"
+        class="
+          ml-auto
+          bg-gray-900/75
+          p-8
+          text-gray-100
+          max-w-[16rem]
+          2xl:max-w-[18rem]
+          w-full
+        "
       >
         <div class="inline-flex items-start">
           <transition>
-            <span :key="currImageIndex" class="text-5xl font-bold">
+            <span :key="currImageIndex" class="text-4xl 2xl:text-5xl font-bold">
               {{ String(currImageIndex + 1).padStart(2, "0") }}
             </span>
           </transition>
-          <span class="text-lg font-medium mt-1 ml-1"
+          <span class="text-md 2xl:text-lg font-medium mt-1 ml-1"
             >/ {{ String(images.length).padStart(2, "0") }}</span
           >
         </div>
@@ -97,8 +106,8 @@ This example requires Tailwind CSS v3.0+
             ref="slideProgress"
           ></div>
         </div>
-        <p class="font-semibold text-lg">Amy</p>
-        <p class="leading-5 text-lg mt-2 font-light">
+        <p class="font-semibold text-md 2xl:text-lg">Amy</p>
+        <p class="leading-5 text-md 2xl:text-lg mt-2 font-light">
           Sie liebt es in Wiesen zu sitzen.
         </p>
       </div>
