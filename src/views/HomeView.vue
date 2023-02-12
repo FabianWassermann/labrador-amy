@@ -31,7 +31,7 @@ This example requires Tailwind CSS v3.0+
       :key="index"
       ref="imageRefs"
       :style="`background-image: url('${image.src}');`"
-      class="h-full w-full absolute hidden"
+      class="h-full w-full absolute hidden bg-cover"
     ></div>
     <!-- Backdrop -->
     <div
