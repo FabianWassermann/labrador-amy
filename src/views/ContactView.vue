@@ -1,10 +1,9 @@
-This example requires Tailwind CSS v3.0+
 <template>
   <!-- HEADER -->
   <div class="bg-sky-900">
     <TheHeader class="w-full pb-6" background="dark"></TheHeader>
   </div>
-  <div class="py-16 px-6 lg:px-8 bg-gray-50">
+  <!-- <div class="py-16 px-6 lg:px-8 bg-gray-50">
     <div class="mx-auto max-w-2xl text-center">
       <h2
         class="
@@ -32,7 +31,7 @@ This example requires Tailwind CSS v3.0+
         />
       </svg>
     </div>
-  </div>
+  </div> -->
   <!-- SECTION 1 -->
   <TheSectionContact></TheSectionContact>
   <!-- FOOTER -->

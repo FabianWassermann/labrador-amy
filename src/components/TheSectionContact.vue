@@ -11,7 +11,7 @@
           <h2
             class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl"
           >
-            Kontaktiere uns
+            Kontaktieren Sie uns
           </h2>
           <p class="mt-3 text-lg leading-6 text-gray-500">
             Wir würden uns freuen, wenn Sie sich mit uns in Kontakt setzen.
@@ -49,7 +49,23 @@
       </div>
       <div class="bg-white py-16 px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
         <div class="mx-auto max-w-lg lg:max-w-none">
-          <form action="#" method="POST" class="grid grid-cols-1 gap-y-6">
+          <h2
+            class="
+              text-2xl
+              font-bold
+              tracking-tight
+              text-gray-900
+              sm:text-3xl
+              opacity-0
+            "
+          >
+            Kontaktieren Sie uns
+          </h2>
+          <p class="mt-3 text-lg leading-6 text-gray-500">
+            Gerne können Sie uns auch über dieses Kontaktformular eine Nachricht
+            senden.
+          </p>
+          <form action="#" method="POST" class="grid grid-cols-1 gap-y-6 mt-8">
             <div>
               <label for="full-name" class="sr-only">Name</label>
               <input
