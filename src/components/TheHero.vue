@@ -107,12 +107,12 @@
 <style>
 .v-enter-active,
 .v-leave-active {
-  transition: opacity 750ms ease;
+  transition: opacity 500ms ease;
 }
 
 .v-enter-from,
 .v-leave-to {
-  opacity: 0.2;
+  opacity: 0.5;
 }
 </style>
 
