@@ -5,23 +5,24 @@
     :key="index"
     ref="imageRefs"
     :style="`background-image: url('${image.src}');`"
-    class="h-full w-full absolute hidden bg-cover -z-10"
+    class="h-full w-full absolute hidden bg-cover bg-center -z-10"
   ></div>
   <main
     class="
       px-6
       pt-6
       lg:px-8
-      max-w-[90rem]
+      max-w-7xl
       w-full
       mx-auto
       h-full
+      grow
       flex flex-col
       justify-between
     "
   >
     <!-- Hero Content -->
-    <div class="h-2/3 flex flex-col justify-center">
+    <div class="h-2/3 flex flex-col justify-center opacity-0">
       <div class="relative">
         <h1
           class="
@@ -77,14 +78,14 @@
       "
     >
       <div class="inline-flex items-start">
-        <transition>
+        <Transition mode="out-in">
           <span
             :key="currImageIndex"
             class="text-3xl sm:text-4xl 2xl:text-5xl font-bold"
           >
             {{ String(currImageIndex + 1).padStart(2, "0") }}
           </span>
-        </transition>
+        </Transition>
         <span class="text-base 2xl:text-lg font-medium mt-1 ml-1"
           >/ {{ String(images.length).padStart(2, "0") }}</span
         >
@@ -103,9 +104,25 @@
   </main>
 </template>
 
+<style>
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 750ms ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0.2;
+}
+</style>
+
 
 <script setup>
 import { ref, onMounted, watch } from "vue";
+import image1 from "@/assets/Ami/P2130744.jpeg";
+import image2 from "@/assets/Ami/P2130746.jpeg";
+import image3 from "@/assets/Ami/P2130866.jpeg";
+import image4 from "@/assets/Ami/P2130995.jpeg";
 
 onMounted(() => {
   imageRefs.value[currImageIndex.value].style.display = "block";
@@ -161,13 +178,16 @@ function doImageSliderChanges(currRef, oldRef) {
 
 const images = [
   {
-    src: "https://images.unsplash.com/photo-1524401033441-e87cab019093?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    src: image1,
   },
   {
-    src: "https://images.unsplash.com/photo-1618153807812-a12a1950d93c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    src: image2,
   },
   {
-    src: "https://images.unsplash.com/photo-1606477787351-226f28ece81f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80",
+    src: image3,
+  },
+  {
+    src: image4,
   },
 ];
 </script>

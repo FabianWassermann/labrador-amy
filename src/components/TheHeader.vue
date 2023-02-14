@@ -1,5 +1,5 @@
 <template>
-  <div class="px-6 pt-6 lg:px-8 max-w-[90rem] mx-auto">
+  <div class="px-6 pt-6 lg:px-8 max-w-7xl mx-auto">
     <!-- Header -->
     <nav class="flex items-center justify-between" aria-label="Global">
       <div class="flex lg:flex-1">
@@ -10,7 +10,9 @@
             src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
             alt=""
           /> -->
-          <span class="font-bold text-3xl tracking-wide text-white uppercase"
+          <span
+            class="font-bold text-3xl tracking-wide text-white uppercase"
+            :class="{ '!text-black': background === 'light' }"
             >Labrador</span
           >
         </a>
@@ -27,6 +29,7 @@
             p-2.5
             text-white
           "
+          :class="{ '!text-black': background === 'light' }"
           @click="mobileMenuOpen = true"
         >
           <span class="sr-only">Open main menu</span>
@@ -34,17 +37,21 @@
         </button>
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
-        <a
+        <router-link
           v-for="item in navigation"
           :key="item.name"
-          :href="item.href"
+          :to="item.to"
           class="text-md font-medium leading-6 text-white"
-          >{{ item.name }}</a
+          :class="{ '!text-black': background === 'light' }"
+          >{{ item.name }}</router-link
         >
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <a href="#" class="text-md font-semibold leading-6 text-white"
-          >Kontakt <span aria-hidden="true">&rarr;</span></a
+        <router-link
+          to="/kontakt"
+          class="text-md font-semibold leading-6 text-white"
+          :class="{ '!text-black': background === 'light' }"
+          >Kontakt <span aria-hidden="true">&rarr;</span></router-link
         >
       </div>
     </nav>
@@ -94,8 +101,8 @@
               >
             </div>
             <div class="py-6">
-              <a
-                href="#"
+              <router-link
+                to="/kontakt"
                 class="
                   -mx-3
                   block
@@ -108,7 +115,7 @@
                   text-gray-900
                   hover:bg-gray-400/10
                 "
-                >Kontakt</a
+                >Kontakt</router-link
               >
             </div>
           </div>
@@ -119,15 +126,20 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, defineProps } from "vue";
 import { Dialog, DialogPanel } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
+import router from "../router";
+
+const props = defineProps({
+  background: String,
+});
 
 const navigation = [
-  { name: "Über uns", href: "#" },
-  { name: "Neuigkeiten", href: "#" },
-  { name: "Wurfplanung", href: "#" },
-  { name: "Galerie", href: "#" },
+  { name: "Über uns", to: "/ueber-uns" },
+  { name: "Neuigkeiten", to: "/neuigkeiten" },
+  { name: "Wurfplanung", to: "/wurfplanung" },
+  { name: "Galerie", to: "/galerie" },
 ];
 
 const mobileMenuOpen = ref(false);

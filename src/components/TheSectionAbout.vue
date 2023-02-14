@@ -81,8 +81,8 @@
               <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
                 <img
                   class="rounded-lg object-cover object-center shadow-lg"
-                  src="https://images.unsplash.com/photo-1537204696486-967f1b7198c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                  alt="Whitney leaning against a railing on a downtown street"
+                  src="@/assets/Ami/P2130708.jpeg"
+                  alt="Amy"
                   width="1184"
                   height="1376"
                 />
@@ -92,7 +92,7 @@
                   class="h-5 w-5 flex-none text-gray-400"
                   aria-hidden="true"
                 />
-                <span class="ml-2">Fotografiert von Jakobi O.</span>
+                <span class="ml-2">Fotografiert von Oliver J.</span>
               </figcaption>
             </figure>
           </div>
