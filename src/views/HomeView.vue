@@ -1,22 +1,15 @@
 This example requires Tailwind CSS v3.0+
 <template>
   <!-- HEADER & HERO -->
-  <div
-    class="
-      isolate
-      bg-white
-      relative
-      bg-cover
-      flex flex-col
-      after:fixed
+  <!-- after:fixed
       after:top-0
       after:bottom-0
       after:left-0
       after:right-0
       after:bg-black/10
-      after:pointer-events-none
-      overflow-hidden
-    "
+      after:pointer-events-none -->
+  <div
+    class="isolate bg-white relative bg-cover flex flex-col overflow-hidden"
     style="min-height: max(100vh, 40rem)"
   >
     <!-- Header Backdrop -->

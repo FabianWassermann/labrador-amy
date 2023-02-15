@@ -119,10 +119,10 @@
 
 <script setup>
 import { ref, onMounted, watch } from "vue";
-import image1 from "@/assets/hero/amy_salzkofel_blick.jpeg";
-import image2 from "@/assets/hero/amy_steg_liegend.jpeg";
-import image3 from "@/assets/hero/amy_sprung.jpeg";
-import image4 from "@/assets/hero/amy_herbst_wald.jpeg";
+import image1 from "@/assets/hero/amy_salzkofel_blick.webp";
+import image2 from "@/assets/hero/amy_steg_liegend.webp";
+import image3 from "@/assets/hero/amy_sprung.webp";
+import image4 from "@/assets/hero/amy_herbst_wald.webp";
 
 onMounted(() => {
   imageRefs.value[currImageIndex.value].style.display = "block";
@@ -173,7 +173,7 @@ function doImageSliderChanges(currRef, oldRef) {
 
   setTimeout(() => {
     oldRef.style.display = "none";
-  }, imageSlideDuration);
+  }, imageSlideDuration + 50);
 }
 
 const images = [
