@@ -107,7 +107,7 @@ section img {
 import { ref, onMounted, watch } from "vue";
 import TheHeader from "@/components/TheHeader.vue";
 import TheFooter from "@/components/TheFooter.vue";
-const imageSrcs = import.meta.glob("@/assets/Ami/*.jpeg", {
+const imageSrcs = import.meta.glob("@/assets/gallery/*.jpeg", {
   eager: true,
   import: "default",
 });
