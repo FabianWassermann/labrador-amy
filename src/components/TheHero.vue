@@ -119,10 +119,10 @@
 
 <script setup>
 import { ref, onMounted, watch } from "vue";
-import image1 from "@/assets/Ami/P2130744.jpeg";
-import image2 from "@/assets/Ami/P2130746.jpeg";
-import image3 from "@/assets/Ami/P2130866.jpeg";
-import image4 from "@/assets/Ami/P2130995.jpeg";
+import image1 from "@/assets/hero/amy_salzkofel_blick.jpeg";
+import image2 from "@/assets/hero/amy_steg_liegend.jpeg";
+import image3 from "@/assets/hero/amy_sprung.jpeg";
+import image4 from "@/assets/hero/amy_herbst_wald.jpeg";
 
 onMounted(() => {
   imageRefs.value[currImageIndex.value].style.display = "block";
@@ -167,7 +167,7 @@ function doImageSliderChanges(currRef, oldRef) {
     [{ transform: "translateX(-100%)" }, { transform: "translateX(0)" }],
     {
       duration: imageSlideDuration,
-      easing: "ease-out",
+      easing: "ease-in",
     }
   );
 
