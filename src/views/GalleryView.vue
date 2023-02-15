@@ -33,8 +33,8 @@
     </div>
   </div>
   <!-- GALLERY -->
-  <section class="max-w-7xl mx-auto mt-6">
-    <img v-for="(src, index) of imageSrcs" :key="index" :src="src" />
+  <section class="max-w-7xl mx-auto my-6">
+    <img v-for="(src, index) in imageSrcs" :key="index" :src="src" />
   </section>
   <!-- FOOTER -->
   <TheFooter></TheFooter>
@@ -106,7 +106,11 @@ section img {
 <script setup>
 import { ref, onMounted, watch } from "vue";
 import TheHeader from "@/components/TheHeader.vue";
-const imageSrcs = import.meta.glob("@/assets/Ami/*.jpeg");
+import TheFooter from "@/components/TheFooter.vue";
+const imageSrcs = import.meta.glob("@/assets/Ami/*.jpeg", {
+  eager: true,
+  import: "default",
+});
 
 const imgs = ref([]);
 
