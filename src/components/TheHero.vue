@@ -171,9 +171,17 @@ function doImageSliderChanges(currRef, oldRef) {
     }
   );
 
+  oldRef.animate(
+    [{ transform: "translateX(0)" }, { transform: "translateX(100%)" }],
+    {
+      duration: imageSlideDuration,
+      easing: "ease-in",
+    }
+  );
+
   setTimeout(() => {
     oldRef.style.display = "none";
-  }, imageSlideDuration + 50);
+  }, imageSlideDuration);
 }
 
 const images = [
