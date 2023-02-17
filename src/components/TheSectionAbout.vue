@@ -24,7 +24,7 @@
       >
         <div>
           <h2 class="text-lg font-semibold text-sky-600">
-            Herzlich Willkommen!
+            Willkommen auf unserer Webseite
           </h2>
           <h3
             class="
@@ -37,7 +37,7 @@
               sm:text-4xl
             "
           >
-            Hundezucht der Labrador Retriever aus Arbeitslinien
+            Einblicke und Infos über uns
           </h3>
         </div>
       </div>
@@ -100,12 +100,10 @@
         <div class="mt-8 lg:mt-0">
           <div class="mx-auto max-w-prose text-base lg:max-w-none">
             <p class="text-lg text-gray-500">
-              Willkommen auf der Webseite der Labrador Retriever Zucht [name]!
-              Wir sind eine kleine, aber passionierte Zucht, die sich dem Wohl
-              und der Gesundheit unserer Vierbeiner verschrieben hat. Unsere
-              Labradore sind nicht nur wunderschöne und liebevolle Begleiter,
-              sondern auch ausgebildete Tiere, die ihren Besitzern viel Freude
-              bereiten.
+              Unsere Amy (laut Ahnentafel Bernadett vom Almental) hat vom ersten
+              Tag an unser Herz erobert. Amy wurde am 21. März 2021 geboren und
+              wir durften sie am 30. Mai 2021 in unserem Haus aufnehmen. Unser
+              Zwingername Sunnysoul hat sich Amy selbst gegeben.
             </p>
           </div>
           <div
@@ -118,39 +116,60 @@
             "
           >
             <p>
-              Wir sind eine vierköpfige Familie, mit einer Leidenschaft für
-              Hunde und es gibt nichts Schöneres, als zu sehen, wie seine Hunde
-              glücklich und gesund aufwachsen und ihre neuen Familien
-              bereichern. Wir legen großen Wert auf artgerechte Haltung und eine
-              gute Sozialisierung der Hunde, um sicherzustellen, dass sie zu
-              selbstbewussten und gut angepassten Hunden heranwachsen.
+              Wir leben im sonnigen Süden Kärntens (in Oberkärnten), auf eine
+              Anhöhe. Mit Amys Einzug haben wir auch bei Schlechtwetter einen
+              Sonnenschein im Haus, da sie ein fröhliches uns sonniges Wesen
+              hat. So wie die Sonne auf Menschen positiv wirkt, so sorgt Amy in
+              unserer Familie für positive Stimmung und gute Laune.
             </p>
             <p>
-              Wir laden Sie ein, sich auf unserer Webseite umzusehen und sich
-              von der Schönheit und dem Charme unserer Labradore zu überzeugen.
-              Wir freuen uns darauf, von Ihnen zu hören und Ihnen bei der Suche
-              nach Ihrem neuen Familienmitglied zu helfen!
-            </p>
-            <h3>Nützliche Informationen</h3>
-            <p>
-              Tincidunt integer commodo, cursus etiam aliquam neque, et.
-              Consectetur pretium in volutpat, diam. Montes, magna cursus nulla
-              feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu
-              proin massa, lectus. Diam rutrum posuere donec ultricies non
-              morbi. Mi a platea auctor mi.
+              Amy ist ein Labrador aus der Arbeitslinie. Ihre innere Ruhe und
+              Ausgeglichenheit beruht auf intensive Beschäftigung sowohl
+              körperlich als auch psychisch. Sie ist bei fast jeder
+              Familienaktivität integriert:
             </p>
             <ul role="list">
-              <li>Quis elit egestas venenatis mattis dignissim.</li>
               <li>
-                Cras cras lobortis vitae vivamus ultricies facilisis tempus.
+                <strong>Hochalpine Wanderungen und Schwimmen</strong>, sorgen
+                für ihre körperliche Auslastung.
               </li>
-              <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
+              <li>
+                Der <strong>Besuch der Hundeschule</strong> von
+                <a href="https://sunshine-labs.weebly.com/">Daniela Erasmus</a>
+                (Leiterin der Ausbildungsstätte ÖRC-Villach) und der damit
+                verbundene <strong>Dummysport</strong>, sorgen für die
+                psychische Auslastung.
+              </li>
+              <li>
+                Hohe Sozialkompetenz im Umgang mit Kindern jeglichen Alters,
+                bringt sie auch zum Arbeitsplatz in der
+                <strong>Musikschule</strong> mit.
+              </li>
             </ul>
+            <h3>Unsere Herangehensweise / Motto</h3>
+            <!-- <blockquote>
+              <p>
+                Die Liebe und Treue eines Hundes kann man nicht beschreiben, die
+                muss man erleben!
+              </p>
+            </blockquote> -->
+            <blockquote>
+              <p>
+                Gut abgerichtet, kann der Hund der beste Freund eines Menschens
+                sein.
+              </p>
+            </blockquote>
             <p>
-              Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum
-              urna sed consectetur neque tristique pellentesque. Blandit amet,
-              sed aenean erat arcu morbi.
+              Nach diesem Motto ist der Hundehalter in der Pflicht viel Energie,
+              Liebe und Zeit zu investieren, um den "besten" Begleiter fürs
+              Leben zu haben.
             </p>
+            <h3>Unser Zuchtziel</h3>
+            <ul role="list">
+              <li>Gesundheit</li>
+              <li>Arbeitsfreude</li>
+              <li>Aussehen</li>
+            </ul>
           </div>
         </div>
       </div>
