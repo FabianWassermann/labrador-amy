@@ -5,11 +5,7 @@
       <div class="flex lg:flex-1">
         <router-link to="/" class="-m-1.5 p-1.5">
           <span class="sr-only">Your Company</span>
-          <!-- <img
-            class="h-8"
-            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-            alt=""
-          /> -->
+          <!-- <img class="h-8" src="@/assets/logo_test.png" alt="" /> -->
           <span
             class="font-bold text-3xl tracking-wide text-white uppercase"
             :class="{ '!text-black': background === 'light' }"
@@ -61,14 +57,19 @@
         class="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden"
       >
         <div class="flex items-center justify-between">
-          <a href="#" class="-m-1.5 p-1.5">
+          <router-link to="/" class="-m-1.5 p-1.5">
             <span class="sr-only">Your Company</span>
-            <img
+            <!-- <img
               class="h-8"
               src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
               alt=""
-            />
-          </a>
+            /> -->
+            <span
+              class="font-bold text-3xl tracking-wide text-gray-900 uppercase"
+              :class="{ '!text-black': background === 'light' }"
+              >Labrador</span
+            >
+          </router-link>
           <button
             type="button"
             class="-m-2.5 rounded-md p-2.5 text-gray-700"
