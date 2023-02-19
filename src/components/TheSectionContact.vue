@@ -65,7 +65,10 @@
             Gerne können Sie uns auch über dieses Kontaktformular eine Nachricht
             senden.
           </p>
-          <form action="#" method="POST" class="grid grid-cols-1 gap-y-6 mt-8">
+          <form
+            v-on:submit="contactFormSubmit"
+            class="grid grid-cols-1 gap-y-6 mt-8"
+          >
             <div>
               <label for="full-name" class="sr-only">Name</label>
               <input
@@ -181,6 +184,26 @@
   </div>
 </template>
   
-  <script setup>
+<script setup>
 import { EnvelopeIcon, PhoneIcon } from "@heroicons/vue/24/outline";
+
+async function contactFormSubmit(e) {
+  e.preventDefault();
+  const data = new FormData(e.target);
+  await fetch("https://1vezik7285.execute-api.eu-central-1.amazonaws.com/all", {
+    method: "POST",
+    headers: {
+      Accept: "application/json",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      email: data.get("email"),
+      message: data.get("message"),
+      tel: data.get("phone"),
+      name: data.get("full-name"),
+      sourceName: "LabradorSunnySoul",
+    }),
+  });
+  e.target.reset();
+}
 </script>
