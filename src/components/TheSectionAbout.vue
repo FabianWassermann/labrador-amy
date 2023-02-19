@@ -108,7 +108,7 @@
           </div>
           <div
             class="
-              prose prose-indigo
+              prose prose-sky
               mx-auto
               mt-5
               text-gray-500

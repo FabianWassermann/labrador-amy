@@ -74,7 +74,6 @@ This example requires Tailwind CSS v3.0+
 <script setup>
 import { ref } from "vue";
 import TheHeader from "@/components/TheHeader.vue";
-import TheHero from "@/components/TheHero.vue";
 import TheSectionAbout from "@/components/TheSectionAbout.vue";
 import TheFooter from "@/components/TheFooter.vue";
 </script>

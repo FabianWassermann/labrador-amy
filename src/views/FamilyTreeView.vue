@@ -15,7 +15,7 @@
           uppercase
         "
       >
-        Neuigkeiten
+        Stammbaum
       </h2>
       <svg
         class="w-2/3 -mt-2 mx-auto fill-gray-200"
@@ -33,14 +33,14 @@
     </div>
   </div>
   <!-- SECTION 1 -->
-  <TheSectionNews></TheSectionNews>
+  <TheSectionFamilyTree></TheSectionFamilyTree>
   <!-- FOOTER -->
   <TheFooter></TheFooter>
 </template>
-
+  
 <script setup>
 import { ref } from "vue";
 import TheHeader from "@/components/TheHeader.vue";
-import TheSectionNews from "@/components/TheSectionNews.vue";
+import TheSectionFamilyTree from "@/components/TheSectionFamilyTree.vue";
 import TheFooter from "@/components/TheFooter.vue";
 </script>

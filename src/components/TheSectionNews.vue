@@ -25,14 +25,14 @@
           </div>
           <div class="flex flex-1 flex-col justify-between bg-white p-6">
             <div class="flex-1">
-              <a :href="post.href" class="mt-2 block">
+              <router-link :to="post.to" class="mt-2 block">
                 <p class="text-xl font-semibold text-gray-900">
                   {{ post.title }}
                 </p>
                 <p class="mt-3 text-base text-gray-500">
                   {{ post.description }}
                 </p>
-              </a>
+              </router-link>
             </div>
             <div class="mt-6 flex items-center">
               <div class="ml-0">
@@ -50,40 +50,39 @@
   </div>
 </template>
   
-  <script setup>
+<script setup>
 const posts = [
   {
     title: "Zuchtzulassung und Formwert bestanden",
-    href: "#",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.",
-    date: "Mar 16, 2020",
-    datetime: "2020-03-16",
+    to: "/test",
+    description: "test",
+    date: "Nov 10, 2022",
+    datetime: "2022-11-10",
     imageUrl:
       "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-    readingTime: "6 min",
-  },
-  {
-    title: "Schulter-, Ellbogen- und HD-Untersuchung bestanden",
-    href: "#",
-    description:
-      "Amy hat heute die Schulter-, Ellbogen- und HD-Untersuchung erfolgreich bestanden und wir sind froh, dass alles in bester Ordnung ist.",
-    date: "Mar 10, 2020",
-    datetime: "2020-03-10",
-    imageUrl:
-      "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
     readingTime: "4 min",
   },
-  {
-    title: "Amy ist eingezogen",
-    href: "#",
-    description:
-      "Amy ist bei uns eingezogen und lebt sich gut ein. Wir lieben es mit ihr zu spielen und mit ihr zu kuscheln. Sie ist ein ruhiger und zugleich aufgeweckter Hund.",
-    date: "Feb 12, 2020",
-    datetime: "2020-02-12",
-    imageUrl:
-      "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-    readingTime: "3 min",
-  },
+  //   {
+  //     title: "Schulter-, Ellbogen- und HD-Untersuchung bestanden",
+  //     href: "#",
+  //     description:
+  //       "Amy hat heute die Schulter-, Ellbogen- und HD-Untersuchung erfolgreich bestanden und wir sind froh, dass alles in bester Ordnung ist.",
+  //     date: "Mar 10, 2020",
+  //     datetime: "2020-03-10",
+  //     imageUrl:
+  //       "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+  //     readingTime: "4 min",
+  //   },
+  //   {
+  //     title: "Amy ist eingezogen",
+  //     href: "#",
+  //     description:
+  //       "Amy ist bei uns eingezogen und lebt sich gut ein. Wir lieben es mit ihr zu spielen und mit ihr zu kuscheln. Sie ist ein ruhiger und zugleich aufgeweckter Hund.",
+  //     date: "Feb 12, 2020",
+  //     datetime: "2020-02-12",
+  //     imageUrl:
+  //       "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+  //     readingTime: "3 min",
+  //   },
 ];
 </script>
