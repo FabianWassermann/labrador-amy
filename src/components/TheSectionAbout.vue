@@ -164,12 +164,12 @@
               Liebe und Zeit zu investieren, um den "besten" Begleiter fürs
               Leben zu haben.
             </p>
-            <h3>Unser Zuchtziel</h3>
+            <!-- <h3>Unser Zuchtziel</h3>
             <ul role="list">
               <li>Gesundheit</li>
               <li>Arbeitsfreude</li>
               <li>Aussehen</li>
-            </ul>
+            </ul> -->
           </div>
         </div>
       </div>

@@ -139,7 +139,7 @@ const props = defineProps({
 const navigation = [
   { name: "Über uns", to: "/ueber-uns" },
   { name: "Neuigkeiten", to: "/neuigkeiten" },
-  { name: "Wurfplanung", to: "/wurfplanung" },
+  { name: "Stammbaum", to: "/stammbaum" },
   { name: "Galerie", to: "/galerie" },
 ];
 

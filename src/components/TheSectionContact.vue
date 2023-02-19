@@ -31,7 +31,7 @@
                   class="h-6 w-6 flex-shrink-0 text-gray-400"
                   aria-hidden="true"
                 />
-                <span class="ml-3">+43 67762140252</span>
+                <span class="ml-3">+43 67761819206</span>
               </dd>
             </div>
             <div class="mt-3">
