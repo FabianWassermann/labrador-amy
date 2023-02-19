@@ -177,6 +177,6 @@
   </div>
 </template>
   
-  <script setup>
+<script setup>
 import { CameraIcon } from "@heroicons/vue/20/solid";
 </script>
