@@ -4,7 +4,7 @@
     <TheHeader class="w-full pb-6" background="dark"></TheHeader>
   </div>
   <!-- NEWS -->
-  <div class="relative">
+  <div class="relative overflow-hidden">
     <div
       class="
         absolute
