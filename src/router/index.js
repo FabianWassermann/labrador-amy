@@ -5,6 +5,7 @@ import AboutView from "../views/AboutView.vue";
 import GalleryView from "../views/GalleryView.vue";
 import NewsView from "../views/NewsView.vue";
 import FamilyTreeView from "../views/FamilyTreeView.vue";
+import NewsArticleView from "../views/NewsArticleView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -33,6 +34,11 @@ const router = createRouter({
       path: "/neuigkeiten",
       name: "news",
       component: NewsView,
+    },
+    {
+      path: "/neuigkeiten/:newsId",
+      name: "news-article",
+      component: NewsArticleView,
     },
     {
       path: "/stammbaum",

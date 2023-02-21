@@ -16,7 +16,7 @@
         class="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3"
       >
         <div
-          v-for="post in posts"
+          v-for="post in news"
           :key="post.title"
           class="flex flex-col overflow-hidden rounded-lg shadow-lg"
         >
@@ -25,7 +25,7 @@
           </div>
           <div class="flex flex-1 flex-col justify-between bg-white p-6">
             <div class="flex-1">
-              <router-link :to="post.to" class="mt-2 block">
+              <router-link :to="`/neuigkeiten/${post.id}`" class="mt-2 block">
                 <p class="text-xl font-semibold text-gray-900">
                   {{ post.title }}
                 </p>
@@ -39,7 +39,7 @@
                 <div class="flex space-x-1 text-sm font-medium text-gray-900">
                   <time :datetime="post.datetime">{{ post.date }}</time>
                   <span aria-hidden="true">&middot;</span>
-                  <span>{{ post.readingTime }} read</span>
+                  <span>{{ post.readingTime }} Lesezeit</span>
                 </div>
               </div>
             </div>
@@ -51,38 +51,5 @@
 </template>
   
 <script setup>
-const posts = [
-  {
-    title: "Zuchtzulassung und Formwert bestanden",
-    to: "/test",
-    description: "test",
-    date: "Nov 10, 2022",
-    datetime: "2022-11-10",
-    imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-    readingTime: "4 min",
-  },
-  //   {
-  //     title: "Schulter-, Ellbogen- und HD-Untersuchung bestanden",
-  //     href: "#",
-  //     description:
-  //       "Amy hat heute die Schulter-, Ellbogen- und HD-Untersuchung erfolgreich bestanden und wir sind froh, dass alles in bester Ordnung ist.",
-  //     date: "Mar 10, 2020",
-  //     datetime: "2020-03-10",
-  //     imageUrl:
-  //       "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-  //     readingTime: "4 min",
-  //   },
-  //   {
-  //     title: "Amy ist eingezogen",
-  //     href: "#",
-  //     description:
-  //       "Amy ist bei uns eingezogen und lebt sich gut ein. Wir lieben es mit ihr zu spielen und mit ihr zu kuscheln. Sie ist ein ruhiger und zugleich aufgeweckter Hund.",
-  //     date: "Feb 12, 2020",
-  //     datetime: "2020-02-12",
-  //     imageUrl:
-  //       "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-  //     readingTime: "3 min",
-  //   },
-];
+import news from "@/news.js";
 </script>
