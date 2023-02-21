@@ -37,7 +37,14 @@
           v-for="item in navigation"
           :key="item.name"
           :to="item.to"
-          class="text-md font-medium leading-6 text-white"
+          class="
+            text-md
+            font-medium
+            leading-6
+            text-white
+            hover:text-gray-200
+            transition-all
+          "
           :class="{ '!text-black': background === 'light' }"
           >{{ item.name }}</router-link
         >
@@ -45,7 +52,14 @@
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
         <router-link
           to="/kontakt"
-          class="text-md font-semibold leading-6 text-white"
+          class="
+            text-md
+            font-semibold
+            leading-6
+            text-white
+            hover:text-gray-200
+            transition-all
+          "
           :class="{ '!text-black': background === 'light' }"
           >Kontakt <span aria-hidden="true">&rarr;</span></router-link
         >
