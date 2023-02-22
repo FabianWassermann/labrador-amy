@@ -118,7 +118,7 @@
             <p>
               Wir leben im sonnigen Süden Kärntens (in Oberkärnten), auf eine
               Anhöhe. Mit Amys Einzug haben wir auch bei Schlechtwetter einen
-              Sonnenschein im Haus, da sie ein fröhliches uns sonniges Wesen
+              Sonnenschein im Haus, da sie ein fröhliches, uns sonniges Wesen
               hat. So wie die Sonne auf Menschen positiv wirkt, so sorgt Amy in
               unserer Familie für positive Stimmung und gute Laune.
             </p>
@@ -141,7 +141,7 @@
                 psychische Auslastung.
               </li>
               <li>
-                Hohe Sozialkompetenz im Umgang mit Kindern jeglichen Alters,
+                Hohe Sozialkompetenz im Umgang mit Kindern jeglichen Alters
                 bringt sie auch zum Arbeitsplatz in der
                 <strong>Musikschule</strong> mit.
               </li>
@@ -155,7 +155,7 @@
             </blockquote> -->
             <blockquote>
               <p>
-                Gut abgerichtet, kann der Hund der beste Freund eines Menschens
+                Gut abgerichtet, kann der Mensch der beste Freund eines Hundes
                 sein.
               </p>
             </blockquote>

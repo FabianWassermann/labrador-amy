@@ -96,10 +96,16 @@
           ref="slideProgress"
         ></div>
       </div>
-      <p class="font-semibold text-base 2xl:text-lg">Amy</p>
-      <p class="leading-5 text-base 2xl:text-lg mt-2 font-light">
-        Sie liebt es in Wiesen zu sitzen.
-      </p>
+      <Transition mode="out-in">
+        <div :key="currImageIndex">
+          <p class="font-semibold text-base 2xl:text-lg">
+            {{ images[currImageIndex]?.title || "-" }}
+          </p>
+          <p class="leading-5 text-base 2xl:text-lg mt-2 font-light">
+            {{ images[currImageIndex]?.desc || "-" }}
+          </p>
+        </div>
+      </Transition>
     </div>
   </main>
 </template>
@@ -187,15 +193,23 @@ function doImageSliderChanges(currRef, oldRef) {
 const images = [
   {
     src: image1,
+    title: "Posierend vorm Salzkofel",
+    desc: "Amy ruht sich am täglichen Spazierweg aus.",
   },
   {
     src: image2,
+    title: "Am Teich entspannen",
+    desc: "Amy erlernte an diesem Platz das sichere Schwimmen.",
   },
   {
     src: image3,
+    title: "Am Weg zum Dummy",
+    desc: "Für den Dummysport lässt sich Amy voll begeistern.",
   },
   {
     src: image4,
+    title: "Im vollen Fokus",
+    desc: "Amy reagiert auf Kommando.",
   },
 ];
 </script>
