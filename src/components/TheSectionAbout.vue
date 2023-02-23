@@ -101,7 +101,7 @@
           <div class="mx-auto max-w-prose text-base lg:max-w-none">
             <p class="text-lg text-gray-500">
               Unsere Amy (laut Ahnentafel Bernadett vom Almental) hat vom ersten
-              Tag an unser Herz erobert. Amy wurde am 21. März 2021 geboren und
+              Tag an unser Herz erobert. Amy wurde am 31. März 2021 geboren und
               wir durften sie am 30. Mai 2021 in unserem Haus aufnehmen. Unser
               Zwingername Sunnysoul hat sich Amy selbst gegeben.
             </p>
@@ -116,7 +116,7 @@
             "
           >
             <p>
-              Wir leben im sonnigen Süden Kärntens (in Oberkärnten), auf eine
+              Wir leben im sonnigen Süden Kärntens (in Oberkärnten), auf einer
               Anhöhe. Mit Amys Einzug haben wir auch bei Schlechtwetter einen
               Sonnenschein im Haus, da sie ein fröhliches, uns sonniges Wesen
               hat. So wie die Sonne auf Menschen positiv wirkt, so sorgt Amy in
@@ -124,7 +124,7 @@
             </p>
             <p>
               Amy ist ein Labrador aus der Arbeitslinie. Ihre innere Ruhe und
-              Ausgeglichenheit beruht auf intensive Beschäftigung sowohl
+              Ausgeglichenheit beruhen auf intensiver Beschäftigung sowohl
               körperlich als auch psychisch. Sie ist bei fast jeder
               Familienaktivität integriert:
             </p>
