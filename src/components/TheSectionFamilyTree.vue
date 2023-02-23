@@ -157,19 +157,21 @@
         <div class="flex gap-4 flex-wrap">
           <figure class="m-0 min-w-[12rem] flex-1">
             <img
-              class="rounded-lg"
-              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
+              class="rounded-lg object-cover object-top"
+              src="@/assets/parents/father.webp"
               alt=""
+              style="aspect-ratio: 1/1"
             />
-            <figcaption>Vater (NAME)</figcaption>
+            <figcaption>Gaston de Bonne Chasse (Vater)</figcaption>
           </figure>
           <figure class="m-0 min-w-[12rem] flex-1">
             <img
-              class="rounded-lg"
-              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
+              class="rounded-lg object-cover"
+              src="@/assets/parents/mother.webp"
               alt=""
+              style="aspect-ratio: 1/1"
             />
-            <figcaption>Mutter (NAME)</figcaption>
+            <figcaption>Molly vom Angerkogel (Mutter)</figcaption>
           </figure>
         </div>
         <figure>
