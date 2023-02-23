@@ -79,13 +79,19 @@
           <div class="relative mx-auto max-w-prose text-base lg:max-w-none">
             <figure>
               <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
-                <img
-                  class="rounded-lg object-cover object-center shadow-lg"
-                  src="@/assets/Ami/P2130708.jpeg"
-                  alt="Amy"
-                  width="1184"
-                  height="1376"
-                />
+                <picture class="aspect-w-12 aspect-h-7 lg:aspect-none">
+                  <source
+                    media="(max-width: 1023px)"
+                    srcset="@/assets/Ami/P2130730.jpeg"
+                  />
+                  <img
+                    class="rounded-lg object-cover object-center shadow-lg"
+                    src="@/assets/Ami/P2130708.jpeg"
+                    alt="Amy"
+                    width="1184"
+                    height="1376"
+                  />
+                </picture>
               </div>
               <figcaption class="mt-3 flex text-sm text-gray-500">
                 <CameraIcon
