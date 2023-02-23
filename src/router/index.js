@@ -6,6 +6,8 @@ import GalleryView from "../views/GalleryView.vue";
 import NewsView from "../views/NewsView.vue";
 import FamilyTreeView from "../views/FamilyTreeView.vue";
 import NewsArticleView from "../views/NewsArticleView.vue";
+import ImprintView from "../views/ImprintView.vue";
+import PrivacyView from "../views/PrivacyView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -44,6 +46,16 @@ const router = createRouter({
       path: "/stammbaum",
       name: "family-tree",
       component: FamilyTreeView,
+    },
+    {
+      path: "/impressum",
+      name: "imprint",
+      component: ImprintView,
+    },
+    {
+      path: "/datenschutz",
+      name: "privacy",
+      component: PrivacyView,
     },
   ],
 });

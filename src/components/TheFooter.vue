@@ -44,11 +44,11 @@
 const navigation = [
   {
     name: "Impressum",
-    to: "#",
+    to: "/impressum",
   },
   {
     name: "Datenschutz",
-    to: "#",
+    to: "/datenschutz",
   },
 ];
 </script>
