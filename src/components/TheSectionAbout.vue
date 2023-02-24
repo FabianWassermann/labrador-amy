@@ -122,7 +122,7 @@
             "
           >
             <p>
-              Wir leben im sonnigen Süden Kärntens (in Oberkärnten), auf einer
+              Wir leben im sonnigen Süden Österreichs, in Oberkärnten, auf einer
               Anhöhe. Mit Amys Einzug haben wir auch bei Schlechtwetter einen
               Sonnenschein im Haus, da sie ein fröhliches, uns sonniges Wesen
               hat. So wie die Sonne auf Menschen positiv wirkt, so sorgt Amy in
