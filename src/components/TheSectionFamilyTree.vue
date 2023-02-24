@@ -130,15 +130,15 @@
             height="873"
           />
           <figcaption>
-            <strong>Amy</strong>, geboren als Bernadett vom Almental. (geb. 31.
-            März 2021)
+            <strong>Amy</strong>, alias Bernadett Vom Almental. (geb. 31. März
+            2021)
           </figcaption>
         </figure>
       </div>
       <div class="prose prose-lg prose-sky mx-auto mt-6 text-gray-500">
         <p>
           Im Zuge dessen möchten wir uns ❤-lichst bei der Familie Viehhauser
-          bedanken. Sie führen ihre Zuchtstätte vom Almental mit größter
+          bedanken. Sie führen ihre Zuchtstätte Vom Almental mit größter
           Sorgfalt. Ihr liebevoller Umgang untereinander einschließlich ihrer
           4-Beiner ist sehr nachahmenswert.
         </p>
