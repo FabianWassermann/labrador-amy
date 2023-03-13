@@ -5,26 +5,18 @@
       <div class="flex lg:flex-1">
         <router-link to="/" class="-m-1.5 p-1.5">
           <span class="sr-only">Your Company</span>
-          <!-- <img class="h-8" src="@/assets/logo_test.png" alt="" /> -->
-          <span
+          <img class="h-16" src="@/assets/logo_white.png" alt="" />
+          <!-- <span
             class="font-bold text-3xl tracking-wide text-white uppercase"
             :class="{ '!text-black': background === 'light' }"
             >Labrador</span
-          >
+          > -->
         </router-link>
       </div>
       <div class="flex lg:hidden">
         <button
           type="button"
-          class="
-            -m-2.5
-            inline-flex
-            items-center
-            justify-center
-            rounded-md
-            p-2.5
-            text-white
-          "
+          class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
           :class="{ '!text-black': background === 'light' }"
           @click="mobileMenuOpen = true"
         >
@@ -37,14 +29,7 @@
           v-for="item in navigation"
           :key="item.name"
           :to="item.to"
-          class="
-            text-md
-            font-medium
-            leading-6
-            text-white
-            hover:text-gray-200
-            transition-all
-          "
+          class="text-md font-medium leading-6 text-white hover:text-gray-200 transition-all"
           :class="{ '!text-black': background === 'light' }"
           >{{ item.name }}</router-link
         >
@@ -52,14 +37,7 @@
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
         <router-link
           to="/kontakt"
-          class="
-            text-md
-            font-semibold
-            leading-6
-            text-white
-            hover:text-gray-200
-            transition-all
-          "
+          class="text-md font-semibold leading-6 text-white hover:text-gray-200 transition-all"
           :class="{ '!text-black': background === 'light' }"
           >Kontakt <span aria-hidden="true">&rarr;</span></router-link
         >
@@ -73,16 +51,12 @@
         <div class="flex items-center justify-between">
           <router-link to="/" class="-m-1.5 p-1.5">
             <span class="sr-only">Your Company</span>
-            <!-- <img
-              class="h-8"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-              alt=""
-            /> -->
-            <span
+            <img class="h-16" src="@/assets/logo_dark.png" alt="" />
+            <!-- <span
               class="font-bold text-3xl tracking-wide text-gray-900 uppercase"
               :class="{ '!text-black': background === 'light' }"
               >Labrador</span
-            >
+            > -->
           </router-link>
           <button
             type="button"
@@ -100,36 +74,14 @@
                 v-for="item in navigation"
                 :key="item.name"
                 :to="item.to"
-                class="
-                  -mx-3
-                  block
-                  rounded-lg
-                  py-2
-                  px-3
-                  text-base
-                  font-semibold
-                  leading-7
-                  text-gray-900
-                  hover:bg-gray-400/10
-                "
+                class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
                 >{{ item.name }}</router-link
               >
             </div>
             <div class="py-6">
               <router-link
                 to="/kontakt"
-                class="
-                  -mx-3
-                  block
-                  rounded-lg
-                  py-2.5
-                  px-3
-                  text-base
-                  font-semibold
-                  leading-6
-                  text-gray-900
-                  hover:bg-gray-400/10
-                "
+                class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10"
                 >Kontakt</router-link
               >
             </div>
@@ -144,7 +96,9 @@
 import { ref, defineProps } from "vue";
 import { Dialog, DialogPanel } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
-import router from "../router";
+import { useRoute } from "vue-router";
+
+const route = useRoute();
 
 const props = defineProps({
   background: String,
