@@ -1,41 +1,18 @@
-
 <template>
   <div class="overflow-hidden bg-white">
     <div class="relative mx-auto max-w-7xl py-16 px-6 lg:px-8">
       <div
-        class="
-          absolute
-          top-0
-          bottom-0
-          left-3/4
-          hidden
-          w-screen
-          bg-gray-50
-          lg:block
-        "
+        class="absolute top-0 bottom-0 left-3/4 hidden w-screen bg-gray-50 lg:block"
       />
       <div
-        class="
-          mx-auto
-          max-w-prose
-          text-base
-          lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8
-        "
+        class="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8"
       >
         <div>
           <h2 class="text-lg font-semibold text-sky-600">
             Willkommen auf unserer Webseite
           </h2>
           <h3
-            class="
-              mt-2
-              text-3xl
-              font-bold
-              leading-8
-              tracking-tight
-              text-gray-900
-              sm:text-4xl
-            "
+            class="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl"
           >
             Einblicke und Infos über uns
           </h3>
@@ -108,25 +85,19 @@
             <p class="text-lg text-gray-500">
               Unsere Amy (laut Ahnentafel Bernadett vom Almental) hat vom ersten
               Tag an unser Herz erobert. Amy wurde am 31. März 2021 geboren und
-              wir durften sie am 30. Mai 2021 in unserem Haus aufnehmen. Unser
-              Zwingername Sunnysoul hat sich Amy selbst gegeben.
+              wir durften sie am 30. Mai 2021 in unserem Haus aufnehmen.
             </p>
           </div>
           <div
-            class="
-              prose prose-sky
-              mx-auto
-              mt-5
-              text-gray-500
-              lg:col-start-1 lg:row-start-1 lg:max-w-none
-            "
+            class="prose prose-sky mx-auto mt-5 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none"
           >
             <p>
               Wir leben im sonnigen Süden Österreichs, in Oberkärnten, auf einer
-              Anhöhe. Mit Amys Einzug haben wir auch bei Schlechtwetter einen
-              Sonnenschein im Haus, da sie ein fröhliches, uns sonniges Wesen
-              hat. So wie die Sonne auf Menschen positiv wirkt, so sorgt Amy in
-              unserer Familie für positive Stimmung und gute Laune.
+              Anhöhe, mit Blick auf den Salzkofel. Mit Amys Einzug haben wir
+              auch bei Schlechtwetter einen Sonnenschein im Haus, da sie ein
+              fröhliches und sonniges Wesen hat. So wie die Sonne auf Menschen
+              positiv wirkt, so sorgt Amy in unserer Familie für positive
+              Stimmung und gute Laune.
             </p>
             <p>
               Amy ist ein Labrador aus der Arbeitslinie. Ihre innere Ruhe und
@@ -182,7 +153,7 @@
     </div>
   </div>
 </template>
-  
+
 <script setup>
 import { CameraIcon } from "@heroicons/vue/20/solid";
 </script>

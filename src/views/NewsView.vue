@@ -6,14 +6,7 @@
   <div class="py-16 px-6 lg:px-8 bg-gray-50">
     <div class="mx-auto max-w-2xl text-center">
       <h2
-        class="
-          text-4xl
-          font-bold
-          tracking-tight
-          text-gray-900
-          sm:text-6xl
-          uppercase
-        "
+        class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl uppercase"
       >
         Neuigkeiten
       </h2>
@@ -39,7 +32,6 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
 import TheHeader from "@/components/TheHeader.vue";
 import TheSectionNews from "@/components/TheSectionNews.vue";
 import TheFooter from "@/components/TheFooter.vue";

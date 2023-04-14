@@ -8,57 +8,18 @@
     class="h-full w-full absolute hidden bg-cover bg-center -z-10"
   ></div>
   <main
-    class="
-      px-6
-      pt-6
-      lg:px-8
-      max-w-7xl
-      w-full
-      mx-auto
-      h-full
-      grow
-      flex flex-col
-      justify-between
-    "
+    class="px-6 pt-6 lg:px-8 max-w-7xl w-full mx-auto h-full grow flex flex-col justify-between"
   >
     <!-- Hero Content -->
     <div class="h-2/3 flex flex-col justify-center opacity-0">
       <div class="relative">
         <h1
-          class="
-            w-fit
-            z-10
-            text-white text-6xl
-            sm:text-8xl
-            2xl:text-9xl
-            tracking-wide
-            font-extrabold
-            leading-[1.15]
-            text-center
-            sm:text-left
-            text-ellipsis
-          "
+          class="w-fit z-10 text-white text-6xl sm:text-8xl 2xl:text-9xl tracking-wide font-extrabold leading-[1.15] text-center sm:text-left text-ellipsis"
         >
           Dein <br />bester Freund.
         </h1>
         <h1
-          class="
-            absolute
-            top-[0.2rem]
-            left-[0.2rem]
-            sm:top-[0.3rem] sm:left-[0.3rem]
-            w-fit
-            text-white text-6xl
-            sm:text-8xl
-            2xl:text-9xl
-            tracking-wide
-            font-extrabold
-            leading-[1.15]
-            mix-blend-difference
-            text-center
-            sm:text-left
-            text-ellipsis
-          "
+          class="absolute top-[0.2rem] left-[0.2rem] sm:top-[0.3rem] sm:left-[0.3rem] w-fit text-white text-6xl sm:text-8xl 2xl:text-9xl tracking-wide font-extrabold leading-[1.15] mix-blend-difference text-center sm:text-left text-ellipsis"
         >
           Dein <br />bester Freund.
         </h1>
@@ -66,16 +27,7 @@
     </div>
     <!-- Hero Image Legend -->
     <div
-      class="
-        mx-auto
-        sm:mr-0
-        bg-black/80
-        p-8
-        text-white
-        max-w-[16rem]
-        2xl:max-w-[18rem]
-        w-full
-      "
+      class="mx-auto sm:mr-0 bg-black/80 p-8 text-white max-w-[16rem] 2xl:max-w-[18rem] w-full"
     >
       <div class="inline-flex items-start">
         <Transition mode="out-in">
@@ -121,7 +73,6 @@
   opacity: 0.5;
 }
 </style>
-
 
 <script setup>
 import { ref, onMounted, watch } from "vue";
@@ -209,7 +160,7 @@ const images = [
   {
     src: image4,
     title: "Im vollen Fokus",
-    desc: "Amy reagiert auf Kommando.",
+    desc: "Amy lauscht aufmerksam.",
   },
 ];
 </script>

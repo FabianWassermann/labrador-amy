@@ -14,17 +14,7 @@ This example requires Tailwind CSS v3.0+
   >
     <!-- Header Backdrop -->
     <div
-      class="
-        w-full
-        pointer-events-none
-        absolute
-        top-0
-        h-24
-        bg-gradient-to-t
-        from-transparent
-        to-black
-        opacity-50
-      "
+      class="w-full pointer-events-none absolute top-0 h-24 bg-gradient-to-t from-transparent to-black opacity-50"
     ></div>
     <TheHeader class="w-full"></TheHeader>
     <!-- Hero -->
@@ -33,8 +23,6 @@ This example requires Tailwind CSS v3.0+
 </template>
 
 <script setup>
-import { ref } from "vue";
 import TheHeader from "@/components/TheHeader.vue";
 import TheHero from "@/components/TheHero.vue";
-import TheFooter from "@/components/TheFooter.vue";
 </script>

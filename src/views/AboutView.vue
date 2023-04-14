@@ -7,14 +7,7 @@ This example requires Tailwind CSS v3.0+
   <div class="py-16 px-6 lg:px-8 bg-gray-50">
     <div class="mx-auto max-w-2xl text-center">
       <h2
-        class="
-          text-4xl
-          font-bold
-          tracking-tight
-          text-gray-900
-          sm:text-6xl
-          uppercase
-        "
+        class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl uppercase"
       >
         Über uns
       </h2>
@@ -39,8 +32,10 @@ This example requires Tailwind CSS v3.0+
   <div class="bg-gray-50">
     <div class="mx-auto max-w-7xl py-12 px-6 lg:py-16 lg:px-8">
       <p class="text-center text-lg font-semibold text-gray-600">
-        Wir züchten Labradore Retriever nach dem Standard der FCI in den Farben
-        schwarz und gelb und sind eingetragene Züchter im ÖKV
+        Wir züchten Labradore Retriever aus Arbeitslinien im ÖRC
+        (Österreichischer Retrieverclub), dessen Dachverbände ÖKV
+        (Österreichischer Kynologenverband) und FCI (Federation Cynologique
+        International) sind.
       </p>
       <div class="mt-6 gap-0.5 lg:mt-8 flex justify-evenly flex-wrap">
         <div class="flex justify-center bg-gray-50 py-8 px-8">
