@@ -6,14 +6,7 @@
   <div class="py-16 px-6 lg:px-8 bg-gray-50">
     <div class="mx-auto max-w-2xl text-center">
       <h2
-        class="
-          text-4xl
-          font-bold
-          tracking-tight
-          text-gray-900
-          sm:text-6xl
-          uppercase
-        "
+        class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl uppercase"
       >
         Impressum
       </h2>
@@ -42,7 +35,7 @@
     </p>
     <p>
       Matthias Wassermann
-      <br />Pattendorf 72 <br />9813 Möllbrücke <br />+43 67762140252 <br /><a
+      <br />Pattendorf 72 <br />9813 Möllbrücke <br />+43 67761819206 <br /><a
         href="mailto:wassermann.matthias@gmail.com"
         >wassermann.matthias@gmail.com</a
       >
@@ -51,9 +44,8 @@
   <!-- FOOTER -->
   <TheFooter></TheFooter>
 </template>
-  
+
 <script setup>
-import { ref } from "vue";
 import TheHeader from "@/components/TheHeader.vue";
 import TheFooter from "@/components/TheFooter.vue";
 </script>

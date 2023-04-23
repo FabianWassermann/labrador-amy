@@ -1,15 +1,7 @@
 <template>
   <div class="relative overflow-hidden bg-white py-16">
     <div
-      class="
-        hidden
-        lg:absolute
-        lg:inset-y-0
-        lg:block
-        lg:h-full
-        lg:w-full
-        lg:[overflow-anchor:none]
-      "
+      class="hidden lg:absolute lg:inset-y-0 lg:block lg:h-full lg:w-full lg:[overflow-anchor:none]"
     >
       <div
         class="relative mx-auto h-full max-w-prose text-lg"
@@ -48,13 +40,7 @@
           />
         </svg>
         <svg
-          class="
-            absolute
-            top-1/2
-            right-full
-            -translate-y-1/2 -translate-x-32
-            transform
-          "
+          class="absolute top-1/2 right-full -translate-y-1/2 -translate-x-32 transform"
           width="404"
           height="384"
           fill="none"
@@ -130,7 +116,7 @@
             height="873"
           />
           <figcaption>
-            <strong>Amy</strong>, alias Bernadett Vom Almental. (geb. 31. März
+            <strong>Amy</strong>, alias Bernadett vom Almental. (geb. 31. März
             2021)
           </figcaption>
         </figure>
@@ -138,7 +124,7 @@
       <div class="prose prose-lg prose-sky mx-auto mt-6 text-gray-500">
         <p>
           Im Zuge dessen möchten wir uns ❤-lichst bei der Familie Viehhauser
-          bedanken. Sie führen ihre Zuchtstätte Vom Almental mit größter
+          bedanken. Sie führen ihre Zuchtstätte vom Almental mit größter
           Sorgfalt. Ihr liebevoller Umgang untereinander einschließlich ihrer
           4-Beiner ist sehr nachahmenswert.
         </p>

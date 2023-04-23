@@ -6,14 +6,7 @@
   <div class="py-16 px-6 lg:px-8 bg-gray-50">
     <div class="mx-auto max-w-2xl text-center">
       <h2
-        class="
-          text-4xl
-          font-bold
-          tracking-tight
-          text-gray-900
-          sm:text-6xl
-          uppercase
-        "
+        class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl uppercase"
       >
         Datenschutz
       </h2>
@@ -34,18 +27,7 @@
   </div>
   <!-- PRIVACY -->
   <div
-    class="
-      prose prose-lg
-      mx-auto
-      mt-10
-      prose-sky
-      px-6
-      pt-6
-      lg:px-8
-      max-w-7xl
-      w-full
-      pb-6
-    "
+    class="prose prose-lg mx-auto mt-10 prose-sky px-6 pt-6 lg:px-8 max-w-7xl w-full pb-6"
   >
     <h2>Erklärung zur Informationsplicht</h2>
     <p>
@@ -85,7 +67,7 @@
       einrichten, dass keine Cookies gespeichert werden. Wir haben mit dem
       Anbieter einen entsprechenden Vertrag zur Auftragsdatenverarbeitung
       abgeschlossen. Ihre IP-Adresse wird erfasst, aber umgehend (z.B. durch
-      Löschung der letzten 8 Bit)pseudonymisiert. Dadurch ist nur mehr eine
+      Löschung der letzten 8 Bit) pseudonymisiert. Dadurch ist nur mehr eine
       grobe Lokalisierung möglich. Die Datenverarbeitung erfolgt auf Basis der
       gesetzlichen Bestimmungen des § 96 Abs 3 TKG sowie des Art 6 Abs 1 lit a
       (Einwilligung) und/oder f (berechtigtes Interesse) der DSGVO. Unser
@@ -109,7 +91,7 @@
   <!-- FOOTER -->
   <TheFooter></TheFooter>
 </template>
-    
+
 <script setup>
 import { ref } from "vue";
 import TheHeader from "@/components/TheHeader.vue";

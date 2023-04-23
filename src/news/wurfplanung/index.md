@@ -12,7 +12,7 @@ Amy (laut Ahnentafel Bernadett vom Almental) wurde von Int. FTCH Kornay Hunting 
             alt=""
             style="aspect-ratio: 1/1"
         />
-        <figcaption>Amy</figcaption>
+        <figcaption>Amy, alias Bernadett vom Almental</figcaption>
     </figure>
     <figure class="m-0 min-w-[12rem] flex-1">
         <img
@@ -31,7 +31,7 @@ Infos zu Int. FTCH Kornay Hunting Elvis findet man auf <a href="https://www.nore
 
 ## Aufzucht
 
-Unsere Welpen werden bei uns im Wohnzimmer geboren und wachsen im Familienverband auf. Die Sozialisierung der Welpen ist sehr wichtig und wir investieren viel Zeit, Energie und Liebe in die Welpen.
+Unsere Welpen werden bei uns im Wohnzimmer geboren und wachsen im Familienverband auf. Ihre Sozialisierung ist uns sehr wichtig, daher investieren wir viel Zeit und Liebe in die Welpen.
 Weiters stehen unter anderem Autofahrten und Ausflüge in der Natur, kleines Apportieren und Suchspiele am Programm.
 
-**Zum Zeitpunkt der Abgabe sind die Welpen selbstverständlich mehrfach entwurmt, geimpft, gechipt und sie erhalten nach Bearbeitung durch ÖRC und ÖKV, die einige Wochen dauert, ihre ÖRC/ÖKV/FCI Papiere.**
+**Zum Zeitpunkt der Abgabe sind die Welpen selbstverständlich mehrfach entwurmt, geimpft, gechipt und Sie erhalten nach Bearbeitung durch ÖRC und ÖKV, die einige Wochen dauert, ihre ÖRC/ÖKV/FCI Papiere.**
